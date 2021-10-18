@@ -19,7 +19,7 @@ def logistic_derivative_function_(x):
     return logistic_function(x) * (1 - logistic_function(x))
 
 
-# NNの計算
+# netural_networkの計算
 def processing(w_1, w_2, X, d_n):
     # 訓練データの数が4
     N = 4
